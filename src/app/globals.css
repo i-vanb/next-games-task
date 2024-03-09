@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #BAC1CC;
+    background-color: rgba(43, 44, 54, 1);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+a{
+    color: rgba(71, 194, 233, 1);
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    padding: 9px;
+    color: #BAC1CC;
+    background-color: rgba(52, 196, 246, 0.1);
+    border: 1px solid rgba(84, 244, 223, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button__group{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
